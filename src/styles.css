@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+a,.btn{
+    cursor: pointer;
+}
+input{
+    width:97%;
+    padding: 10px;
+
+}
+input:focus{
+    border: 1px solid aqua;
+}
+label{
+    font-weight: bold;
+    display: block;
+}
+.btn{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-success.btn{
+    background-color: green;
+    color:white;
+
+}
