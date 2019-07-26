@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Article} from './article/article.model';
+import {listArticles} from './article/article.list';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-
 export class AppComponent {
-  title = 'service';
+  listArticles:Article[];
+  constructor(){
+      
+  }
 }

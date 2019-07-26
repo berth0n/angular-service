@@ -1,0 +1,7 @@
+.article-content{
+display: flex;
+justify-content: space-around;
+}
+.article-left{
+    margin-right: 30px;
+}

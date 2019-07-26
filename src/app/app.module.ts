@@ -7,11 +7,13 @@ import { ArticleComponent } from './article/article.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import {routes} from './routing/routes.list';
 import { RouterModule } from '@angular/router';
+import { UserComponent } from './user/user.component';
 @NgModule({
   declarations: [
     AppComponent,
     ArticleComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
