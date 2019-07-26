@@ -1,6 +1,6 @@
 .article-content{
 display: flex;
-justify-content: space-around;
+justify-content: stretch;
 }
 .article-left{
     margin-right: 30px;

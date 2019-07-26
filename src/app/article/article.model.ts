@@ -1,13 +1,17 @@
+import { ArticleObject } from './article.objet';
+
 export class Article{
     id:number;
     name:string;
     description:string;
     vote:number;
-    constructor(id:number, name:string, desciption?:string, vote?:number){
-    this.id=id;
-    this.name=name;
-    this.description=desciption||"";
-    this.vote=vote||0;
+    url:string;
+    constructor(article:ArticleObject){
+    this.id=article.id;
+    this.name=article.name;
+    this.description=article.description||"";
+    this.vote=article.vote||0;
+    this.url=article.url||"https://place-hold.it/200*300";
     }
     voteUp():void{
         this.vote++;
